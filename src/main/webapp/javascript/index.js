@@ -28,7 +28,7 @@ button.addEventListener("click", () => {
 
         //3. Open the request http://sandipbgt.com/theastrologer/api/horoscope/pisces/today
       
-        xhttp.open("GET",`http://localhost:8080/app/candy?id=${inputValue}`);
+        xhttp.open("GET",`http://localhost:8081/app/candy?id=${inputValue}`);
 
         //4.Send the request
         xhttp.send();
